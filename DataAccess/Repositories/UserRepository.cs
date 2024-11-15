@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class UserRepository : RepositoryBase<User>, IUserRepository
     {
         public UserRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

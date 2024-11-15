@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class FoodItemRepository : RepositoryBase<FoodItem>, IFoodItemRepository
     {
         public FoodItemRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

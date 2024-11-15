@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class ActivityRepository : RepositoryBase<Activity>, IActivityRepository
     {
         public ActivityRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

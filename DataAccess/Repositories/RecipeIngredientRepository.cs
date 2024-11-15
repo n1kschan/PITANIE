@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class RecipeIngredientRepository : RepositoryBase<RecipeIngredient>, IRecipeIngredientRepository
     {
         public RecipeIngredientRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

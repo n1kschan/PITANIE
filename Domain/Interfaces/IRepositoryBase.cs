@@ -14,6 +14,6 @@ namespace Domain.Interfaces
         Task Create(T entity);
         Task Update(T entity);
         Task Delete(T entity);
-        
+
     }
 }

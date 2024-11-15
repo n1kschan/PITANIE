@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class AllergenRepository : RepositoryBase<Allergen>, IAllergenRepository
     {
         public AllergenRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

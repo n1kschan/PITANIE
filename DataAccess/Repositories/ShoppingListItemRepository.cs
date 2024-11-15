@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class ShoppingListItemRepository : RepositoryBase<ShoppingListItem>, IShoppingListItemRepository
     {
         public ShoppingListItemRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

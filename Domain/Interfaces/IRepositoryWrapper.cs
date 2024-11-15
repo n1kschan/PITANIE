@@ -9,7 +9,7 @@ namespace Domain.Wrapper
 {
     public interface IRepositoryWrapper
     {
-        IUserRepository User {  get; }
+        IUserRepository User { get; }
         IActivityRepository Activity { get; }
         IAllergenRepository Allergen { get; }
         IFavoriteRecipeRepository FavoriteRecipe { get; }

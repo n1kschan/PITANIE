@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-    
+
 namespace Domain.Models
-{   
+{
     public partial class UserPreference
     {
         public int UserPreferenceId { get; set; }

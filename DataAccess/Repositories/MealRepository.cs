@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class MealRepository : RepositoryBase<Meal>, IMealRepository
     {
         public MealRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

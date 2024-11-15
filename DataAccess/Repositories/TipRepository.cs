@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class TipRepository : RepositoryBase<Tip>, ITipRepository
     {
         public TipRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

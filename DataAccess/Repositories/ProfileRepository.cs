@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class ProfileRepository : RepositoryBase<Profile>, IProfileRepository
     {
         public ProfileRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }

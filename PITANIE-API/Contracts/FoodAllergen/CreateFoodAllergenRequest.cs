@@ -3,6 +3,6 @@
     public class CreateFoodAllergenRequest
     {
         public int Fooditemid { get; set; }
-        public int Allergenid {  get; set; } 
+        public int Allergenid { get; set; }
     }
 }

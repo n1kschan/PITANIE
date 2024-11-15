@@ -48,7 +48,7 @@ namespace Питание
                 builder.AllowAnyOrigin()
                        .AllowAnyMethod()
                        .AllowAnyHeader();
-                
+
             }));
 
 

@@ -11,7 +11,7 @@ namespace DateAccess.Repositories
     public class FoodAllergenRepository : RepositoryBase<FoodAllergen>, IFoodAllergenRepository
     {
         public FoodAllergenRepository(практическая_работаContext repositoryContext)
-            : base(repositoryContext) 
+            : base(repositoryContext)
         {
         }
     }
