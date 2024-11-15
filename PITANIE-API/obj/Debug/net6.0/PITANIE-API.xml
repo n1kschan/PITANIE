@@ -1,0 +1,708 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PITANIE-API</name>
+    </assembly>
+    <members>
+        <member name="M:Питание.Controllers.ActivityController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ActivityController.GetById(System.Int32)">
+            <summary>
+            Отображение конкретного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ActivityController.Add(Питание.Contracts.Activity.CreateActivityRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ActivityController.Update(Питание.Contracts.Activity.UpdateActivityRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ActivityController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.AllergenController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.AllergenController.GetById(System.Int32)">
+            <summary>
+            Отображение конкретного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.AllergenController.Add(Питание.Contracts.Allergen.CreateAllergenRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.AllergenController.Update(Питание.Contracts.Allergen.UpdateAllergenRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.AllergenController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FavoriteRecipeController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FavoriteRecipeController.GetById(System.Int32)">
+            <summary>
+            Отображение конкретного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FavoriteRecipeController.Add(Питание.Contracts.FavoriteRecipe.CreateFavoriteRecipeRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FavoriteRecipeController.Update(Питание.Contracts.FavoriteRecipe.UpdateFavoriteRecipeRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FavoriteRecipeController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodAllergenController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodAllergenController.GetById(System.Int32)">
+            <summary>
+            Отображение конкретного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodAllergenController.Add(Питание.Contracts.FoodAllergen.CreateFoodAllergenRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodAllergenController.Update(Питание.Contracts.FoodAllergen.UpdateFoodAllergenRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodAllergenController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodCategoryController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodCategoryController.GetById(System.Int32)">
+            <summary>
+            Отображение конкретного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodCategoryController.Add(Питание.Contracts.FoodCategory.CreateFoodCategoryRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodCategoryController.Update(Питание.Contracts.FoodCategory.UpdateFoodCategoryRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodCategoryController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemCategoryController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemCategoryController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemCategoryController.Add(Питание.Contracts.FoodItemCategory.CreateFoodItemCategoryRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemCategoryController.Update(Питание.Contracts.FoodItemCategory.CreateFoodItemCategoryRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemCategoryController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemController.Add(Питание.Contracts.FoodItem.CreateFoodItemRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemController.Update(Питание.Contracts.FoodItem.CreateFoodItemRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.FoodItemController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealFoodItemController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealFoodItemController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealFoodItemController.Add(Питание.Contracts.MealFoodItem.CreateMealFoodItemRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealFoodItemController.Update(Питание.Contracts.MealFoodItem.CreateMealFoodItemRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealFoodItemController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealPlanController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealPlanController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealPlanController.Add(Питание.Contracts.MealPlan.CreateMealPlanRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealPlanController.Update(Питание.Contracts.MealPlan.CreateMealPlanRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealPlanController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealController.Add(Питание.Contracts.Meal.CreateMealRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealController.Update(Питание.Contracts.Meal.CreateMealRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.MealController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.NutritionalGoalController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.NutritionalGoalController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.NutritionalGoalController.Add(Питание.Contracts.NutritionalGoal.CreateNutritionalGoalRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.NutritionalGoalController.Update(Питание.Contracts.NutritionalGoal.CreateNutritionalGoalRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.NutritionalGoalController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ProfileController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ProfileController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ProfileController.Add(Питание.Contracts.Profile.CreateProfileRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ProfileController.Update(Питание.Contracts.Profile.CreateProfileRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ProfileController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeIngredientController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeIngredientController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeIngredientController.Add(Питание.Contracts.RecipeIngredient.CreateRecipeIngredientRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeIngredientController.Update(Питание.Contracts.RecipeIngredient.CreateRecipeIngredientRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeIngredientController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeController.Add(Питание.Contracts.Recipe.CreateRecipeRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeController.Update(Питание.Contracts.Recipe.CreateRecipeRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecipeController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecordController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecordController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecordController.Add(Питание.Contracts.Record.CreateRecordRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecordController.Update(Питание.Contracts.Record.CreateRecordRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.RecordController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListItemController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListItemController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListItemController.Add(Питание.Contracts.ShoppingListItem.CreateShoppingListItemRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListItemController.Update(Питание.Contracts.ShoppingListItem.CreateShoppingListItemRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListItemController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListController.Add(Питание.Contracts.ShoppingList.CreateShoppingListRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListController.Update(Питание.Contracts.ShoppingList.CreateShoppingListRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.ShoppingListController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.TipController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.TipController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.TipController.Add(Питание.Contracts.Tip.CreateTipRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.TipController.Update(Питание.Contracts.Tip.CreateTipRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.TipController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Отображение конкретного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserController.Add(Питание.Contracts.User.CreateUserRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserController.Update(Питание.Contracts.User.UpdateUserRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserPreferenceController.GetAll">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserPreferenceController.GetById(System.Int32)">
+            <summary>
+            Отображение всех пользователей
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserPreferenceController.Add(Питание.Contracts.UserPreference.CreateUserPreferenceRequest)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserPreferenceController.Update(Питание.Contracts.UserPreference.CreateUserPreferenceRequest)">
+            <summary>
+            Изменяет данные у пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:Питание.Controllers.UserPreferenceController.Delete(System.Int32)">
+            <summary>
+            Удаляет выбранного пользователя
+            </summary>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
