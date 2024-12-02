@@ -28,6 +28,14 @@ namespace BusinessLogic.Services
 
         public async Task Create(Allergen model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (string.IsNullOrEmpty(model.AllergenName))
+            {
+                throw new ArgumentException(nameof(model.AllergenName));
+            }
             await _repositoryWrapper.Allergen.Create(model);
             await _repositoryWrapper.Save();
         }

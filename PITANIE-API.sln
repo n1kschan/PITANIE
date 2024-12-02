@@ -3,13 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PITANIE-API", "PITANIE-API\PITANIE-API.csproj", "{E421DD3D-F739-4078-A4DC-1B65D5BEA5E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PITANIE-API", "PITANIE-API\PITANIE-API.csproj", "{E421DD3D-F739-4078-A4DC-1B65D5BEA5E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1D3F4660-F469-40B5-876C-F2359C9AAF22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1D3F4660-F469-40B5-876C-F2359C9AAF22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{CC049F2C-7E39-43FC-ACF4-A22D0CE66422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{CC049F2C-7E39-43FC-ACF4-A22D0CE66422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{2E382BB6-C41D-4586-A116-B14294849B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{2E382BB6-C41D-4586-A116-B14294849B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Tests", "BusinessLogic.Tests\BusinessLogic.Tests.csproj", "{A8E98DAC-8833-4642-A9BA-C9E8D7D169FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A59E80CC-057C-4715-9FAB-376FFB8002ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{246BBD4B-BDB1-4264-B3BE-484BFBB2AB11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{5346F91A-2F0A-4018-A37E-240B7E268641}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +44,20 @@ Global
 		{2E382BB6-C41D-4586-A116-B14294849B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E382BB6-C41D-4586-A116-B14294849B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E382BB6-C41D-4586-A116-B14294849B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E98DAC-8833-4642-A9BA-C9E8D7D169FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E98DAC-8833-4642-A9BA-C9E8D7D169FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E98DAC-8833-4642-A9BA-C9E8D7D169FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E98DAC-8833-4642-A9BA-C9E8D7D169FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E421DD3D-F739-4078-A4DC-1B65D5BEA5E0} = {A59E80CC-057C-4715-9FAB-376FFB8002ED}
+		{1D3F4660-F469-40B5-876C-F2359C9AAF22} = {A59E80CC-057C-4715-9FAB-376FFB8002ED}
+		{CC049F2C-7E39-43FC-ACF4-A22D0CE66422} = {A59E80CC-057C-4715-9FAB-376FFB8002ED}
+		{2E382BB6-C41D-4586-A116-B14294849B42} = {A59E80CC-057C-4715-9FAB-376FFB8002ED}
+		{A8E98DAC-8833-4642-A9BA-C9E8D7D169FD} = {246BBD4B-BDB1-4264-B3BE-484BFBB2AB11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C875EEDB-EFB5-4350-988A-9702E65D4D0C}

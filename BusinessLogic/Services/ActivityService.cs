@@ -28,6 +28,14 @@ namespace BusinessLogic.Services
 
         public async Task Create(Activity model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (model.UserId == 0)
+            {
+                throw new ArgumentException(nameof(model.UserId));
+            }
             await _repositoryWrapper.Activity.Create(model);
             await _repositoryWrapper.Save();
         }

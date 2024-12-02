@@ -28,6 +28,14 @@ namespace BusinessLogic.Services
 
         public async Task Create(FoodCategory model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (string.IsNullOrEmpty(model.CategoryName))
+            {
+                throw new ArgumentException(nameof(model.CategoryName));
+            }
             await _repositoryWrapper.FoodCategory.Create(model);
             await _repositoryWrapper.Save();
         }

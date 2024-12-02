@@ -1,0 +1,26 @@
+name: dotnet test
+
+on:
+  push:
+    paths:
+      - "**.cs"
+      - "**/*.csproj"
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Run tests
+        run: dotnet test --configuration Release --verbosity normal

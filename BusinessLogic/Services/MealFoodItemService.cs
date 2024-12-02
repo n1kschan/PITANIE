@@ -30,6 +30,14 @@ namespace BusinessLogic.Services
 
             public async Task Create(MealFoodItem model)
             {
+                if (model == null)
+                {
+                    throw new ArgumentNullException(nameof(model));
+                }
+                if (model.MealId == 0)
+                {
+                    throw new ArgumentException(nameof(model.MealId));
+                }
                 await _repositoryWrapper.MealFoodItem.Create(model);
                 await _repositoryWrapper.Save();
             }
